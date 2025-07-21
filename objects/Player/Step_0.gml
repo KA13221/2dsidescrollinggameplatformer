@@ -20,7 +20,7 @@ move_x = move_x * walk_speed;
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "Object2"
 /// @DnDSaveInfo : "object" "Object2"
-var l5DA81C71_0 = instance_place(x + 0, y + 2, [Object2]);if ((l5DA81C71_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+var l5DA81C71_0 = instance_place(x + 0, y + 2, [obj_floor]);if ((l5DA81C71_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 22A0B9E9
 	/// @DnDParent : 5DA81C71
@@ -67,4 +67,4 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDArgument : "maxymove" "jump_speed"
 /// @DnDArgument : "object" "Object2"
 /// @DnDSaveInfo : "object" "Object2"
-move_and_collide(move_x, move_y, Object2,4,0,0,walk_speed,jump_speed);
+move_and_collide(move_x, move_y, obj_floor,4,0,0,walk_speed,jump_speed);

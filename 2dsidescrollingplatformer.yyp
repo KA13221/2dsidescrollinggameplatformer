@@ -35,8 +35,8 @@
   },
   "name":"2dsidescrollingplatformer",
   "resources":[
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
-    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
+    {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
