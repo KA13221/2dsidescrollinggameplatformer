@@ -18,9 +18,8 @@ move_x = move_x * walk_speed;
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "Object2"
-/// @DnDSaveInfo : "object" "Object2"
-var l5DA81C71_0 = instance_place(x + 0, y + 2, [obj_floor]);if ((l5DA81C71_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "object" "collision_tilemap"
+var l5DA81C71_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l5DA81C71_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 22A0B9E9
 	/// @DnDParent : 5DA81C71
@@ -65,6 +64,5 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDArgument : "yvel" "move_y"
 /// @DnDArgument : "maxxmove" "walk_speed"
 /// @DnDArgument : "maxymove" "jump_speed"
-/// @DnDArgument : "object" "Object2"
-/// @DnDSaveInfo : "object" "Object2"
-move_and_collide(move_x, move_y, obj_floor,4,0,0,walk_speed,jump_speed);
+/// @DnDArgument : "object" "collision_tilemap"
+move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
