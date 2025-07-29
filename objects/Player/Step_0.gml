@@ -67,12 +67,6 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDArgument : "object" "collision_tilemap"
 move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
 
-/// @DnDAction : YoYo Games.Movement.move_and_collide
-/// @DnDVersion : 1
-/// @DnDHash : 046D7041
-/// @DnDArgument : "object" "collision_deathtile"
-move_and_collide(0, 0, collision_deathtile,4,0,0,-1,-1);
-
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 5006FA15
